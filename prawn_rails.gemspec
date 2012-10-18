@@ -36,14 +36,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<railties>, [">= 3.0.0"])
-      s.add_runtime_dependency(%q<prawn>, [">= 0.11.1"])
+      s.add_runtime_dependency(%q<prawn>, [">= 1.0.0.rc1"])
     else
       s.add_dependency(%q<railties>, [">= 3.0.0"])
-      s.add_dependency(%q<prawn>, [">= 0.11.1"])
+      s.add_dependency(%q<prawn>, [">= 1.0.0.rc1"])
     end
   else
     s.add_dependency(%q<railties>, [">= 3.0.0"])
-    s.add_dependency(%q<prawn>, [">= 0.11.1"])
+    s.add_dependency(%q<prawn>, [">= 1.0.0.rc1"])
   end
 end
 
